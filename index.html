@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#101a22" />
+    <title>Skyline Archery — WebXR</title>
+    <script type="module" crossorigin src="/assets/index-P0nWScCe.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-ChAkWuV0.css">
+  </head>
+  <body>
+    <main id="hud" aria-live="polite">
+      <header class="topbar">
+        <a class="wordmark" href="#" aria-label="Skyline Archery home">
+          <span class="wordmark-mark">✳</span> SKYLINE <span>ARCHERY</span>
+        </a>
+        <div class="stats">
+          <div class="stat"><span class="stat-label">SCORE</span><strong id="score">0000</strong></div>
+          <div class="stat"><span class="stat-label">TIME</span><strong id="time">60</strong></div>
+          <div class="stat"><span class="stat-label">ARROWS</span><strong id="arrows">00</strong></div>
+        </div>
+      </header>
+
+      <section id="intro" class="intro">
+        <p class="eyebrow">A LITTLE PRACTICE IN THE CLOUDS</p>
+        <h1>Find your<br /><span>inner archer.</span></h1>
+        <p class="intro-copy">Aim for the gold. You have one minute and unlimited arrows.</p>
+        <button id="start-button" class="start-button" type="button">Start shooting <span aria-hidden="true">↗</span></button>
+        <p class="controls"><span>DESKTOP</span> Move mouse to aim · Click to shoot<br /><span>VR</span> Point a controller · Press its trigger</p>
+      </section>
+
+      <div id="crosshair" class="crosshair" aria-hidden="true"><span></span></div>
+      <div id="message" class="message" role="status"></div>
+      <footer class="footer"><span>60 SECOND CHALLENGE</span><span>WEBXR · BROWSER ARCHERY</span></footer>
+    </main>
+  </body>
+</html>

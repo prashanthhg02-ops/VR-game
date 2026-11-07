@@ -1,4 +1,3 @@
-# VR-game
 # Skyline Archery
 
 A small browser-based archery game built with Three.js and WebXR. Play with a mouse on desktop or enter VR and shoot with a motion-controller trigger.
